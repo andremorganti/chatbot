@@ -1,4 +1,5 @@
 source :rubygems
+
 gem 'sinatra'
 gem "activerecord"
 gem "sinatra-activerecord"
@@ -6,7 +7,7 @@ gem 'pg'
 gem 'rake'
 
 group :development do
- gem "tux"
+ gem "tux" #similar a rails c
 end
 
 group :test do

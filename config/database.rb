@@ -9,7 +9,7 @@ configure :test do
     }
  end
  
- configure :development do
+configure :development do
   set :database, {
     adapter: 'postgresql',
     encoding: 'utf8',
@@ -20,7 +20,7 @@ configure :test do
   }
  end
  
- configure :production do
+configure :production do
     set :database, {
       adapter: 'postgresql',
       encoding: 'utf8',
