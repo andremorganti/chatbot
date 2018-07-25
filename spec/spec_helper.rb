@@ -3,6 +3,7 @@ require 'rspec'
 require 'rack/test'
 require 'ffaker'
 require "pg_search"
+require "factory_bot"
 Dir["./spec/support/**/*.rb"].each { |f| require f }
 Dir["./app/services/**/*.rb"].each {|file| require file }
 
